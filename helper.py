@@ -1,6 +1,7 @@
 import platform
 import os
 from PyInquirer import prompt
+from style import style
 
 def screencls():
     if platform.system() == "Linux" or platform.system() == "Darwin":
